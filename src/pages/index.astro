@@ -1,0 +1,378 @@
+---
+import "../styles/global.css";
+import Slider from "../components/card.astro"
+---
+<head>
+	<link rel="icon" href="/public/curriculum-vitae.png" type="image/x-icon">
+	<title>Curriculum Vitae</title>
+</head>
+<main>
+	<div class="nombre">
+		<div>
+			<p id="encabezado">Victor Manuel Jacobo Perez</p>
+			<p id="puesto">Desarrollador web</p>
+		</div>
+	</div>
+	<div class="perfil">
+		<img src="/perfil.png" alt="perfil" />
+	</div>
+	<div class="basico">
+		<button id="next">&#60</button>
+		<div class="slider">
+			<div class="item">
+				<p class="titulo">Formacion complementaria</p>
+				<div class="liner">
+					<div>
+						<img src="/html.svg" />
+					</div>
+					<p>HTML</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/css.svg" />
+					</div>
+					<p>CSS</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/javascript.svg" />
+					</div>
+					<p>Javascript</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/electron.svg" />
+					</div>
+					<p>Electron JS</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/python.svg" />
+					</div>
+					<p>Python</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/react.svg" />
+					</div>
+					<p>React (B&aacute;sico)</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/node.svg" />
+					</div>
+					<p>Node JS (B&aacute;sico)</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/java.svg" />
+					</div>
+					<p>Java (B&aacute;sico)</p>
+				</div>
+			</div>
+			<div class="item">
+				<p class="titulo">Datos de contacto</p>
+				<div class="liner">
+					<div>
+						<img src="/mail.svg" />
+					</div>
+					<a href="mailto:victor.jacobo580@gmail.com">victor.jacobo580@gmail.com</a>
+				</div>
+
+				<div class="liner">
+					<div>
+						<img src="/telephone.svg" />
+					</div>
+					<p>249 171 7309</p>
+				</div>
+
+				<div class="liner">
+					<div>
+						<img src="/github.svg" />
+					</div>
+					<a href="https://github.com/VictorJacobo" target="_blank">VictorJacobo</a>
+				</div>
+				<p class="titulo">Habilidades</p>
+				<ul>
+					<li>Manejo de paqueteria Microsoft Office</li>
+					<li>Autodidacta</li>
+					<li>Trabajo bajo presi&oacute;n</li>
+					<li>Trabajo en equipo</li>
+					<li>Proactivo</li>
+				</ul>
+				<p class="titulo">Idiomas</p>
+				<ul>
+					<li>Espa&ntilde;ol (Nativo)</li>
+					<li>Ingles (B&aacute;sico A2)</li>
+				</ul>
+			</div>
+		</div>
+		<button id="prev">&#62</button>
+
+		<div class="no-slider">
+			<div>
+				<p class="titulo">Formacion complementaria</p>
+				<div class="liner">
+					<div>
+						<img src="/html.svg" />
+					</div>
+					<p>HTML</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/css.svg" />
+					</div>
+					<p>CSS</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/javascript.svg" />
+					</div>
+					<p>Javascript</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/electron.svg" />
+					</div>
+					<p>Electron JS</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/python.svg" />
+					</div>
+					<p>Python</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/react.svg" />
+					</div>
+					<p>React (B&aacute;sico)</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/node.svg" />
+					</div>
+					<p>Node JS (B&aacute;sico)</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/java.svg" />
+					</div>
+					<p>Java (B&aacute;sico)</p>
+				</div>
+			</div>
+			<div>
+				<p class="titulo">Datos de contacto</p>
+				<div class="liner">
+					<div>
+						<img src="/mail.svg" />
+					</div>
+					<a href="mailto:victor.jacobo580@gmail.com">victor.jacobo580@gmail.com</a>
+				</div>
+
+				<div class="liner">
+					<div>
+						<img src="/telephone.svg" />
+					</div>
+					<p>249 171 7309</p>
+				</div>
+				<div class="liner">
+					<div>
+						<img src="/github.svg" />
+					</div>
+					<a href="https://github.com/VictorJacobo" target="_blank">VictorJacobo</a>
+				</div>
+				<p class="titulo">Habilidades</p>
+				<ul>
+					<li>Manejo de paqueteria Microsoft Office</li>
+					<li>Autodidacta</li>
+					<li>Trabajo bajo presi&oacute;n</li>
+					<li>Trabajo en equipo</li>
+					<li>Proactivo</li>
+				</ul>
+				<p class="titulo">Idiomas</p>
+				<ul>
+					<li>Espa&ntilde;ol (Nativo)</li>
+					<li>Ingles (B&aacute;sico A2)</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="historial">
+		<div class="botones">
+			<button class="activo">Perfil Profesional</button>
+			<button>Experiencia laboral</button>
+			<button>Datos acad&eacute;micos</button>
+		</div>
+		<div class="contenido about">
+			<p class="point">Sobre mi:</p>
+			<p>
+				Reci&eacute;n egresado de la Ingenier&iacute;a en Ciencias de la
+				Computaci&oacute;n (en proceso de titulaci&oacute;n),
+				programador junior y desarrollador web, especializado
+				principalmente en el desarrollo front-end.
+			</p>
+			<p class="point">Objetivo Personal:</p>
+			<p>
+				Desarrollar una carrera s&oacute;lida en el
+				desarrollo web hasta alcanzar el nivel de Full Stack,
+				enfoc&aacute;ndome en el aprendizaje continuo y la adquisici&oacute;n de
+				habilidades avanzadas en el sector. Para lograrlo, buscar&eacute;
+				adquirir experiencia pr&aacute;ctica en el campo laboral y continuar&eacute;
+				mi formaci&oacute;n mediante cursos y diplomados especializados.
+			</p>
+			<p class="point">Objetivo Profesional:</p>
+			<p>
+				Contribuir al &eacute;xito de la empresa
+				aplicando mis conocimientos para ofrecer soluciones y propuestas
+				&oacute;ptimas ante cualquier desaf&iacute;o. Me comprometo a investigar y
+				dedicar el tiempo y esfuerzo necesarios para cumplir con las
+				expectativas, con el objetivo de liderar proyectos en un futuro
+				cercano.
+			</p>
+			
+		</div>
+		<div class="contenido">
+			<Slider></Slider>
+		</div>
+		<div class="contenido about">
+			<p class="title">Benemerita Universidad Autonoma de Puebla</p>
+			<p class="subtitle">Ingenier&iacute;a en ciencias de la computaci&oacute;n | 2019 - 2024</p>
+		</div>
+	</div>
+</main>
+
+<script>
+	function adjustPadding() {
+		const perfil = document.querySelector(".perfil");
+		const basico = document.querySelector(".basico");
+
+		if (perfil && basico) {
+			const perfilHeight = perfil.clientHeight + perfil.offsetTop;
+			basico.style.paddingTop = perfilHeight + "px";
+
+			// Ajustar la altura interna del contenido de basico
+			const contenidoBasico = basico.querySelector(".contenido");
+			if (contenidoBasico) {
+				contenidoBasico.style.height = `calc(100vh - ${perfilHeight}px)`;
+			}
+			document.documentElement.style.setProperty(
+				"--dynamic-padding",
+				`${perfilHeight}px`,
+			);
+		} else {
+			console.error(
+				"No se pudieron encontrar los elementos .perfil o .basico.",
+			);
+		}
+	}
+
+	// Ejecutar al cargar la página y al cambiar el tamaño de la ventana
+	window.addEventListener("load", adjustPadding);
+	window.addEventListener("resize", adjustPadding);
+
+	function adjustPadding2() {
+		const nombre = document.querySelector(".nombre");
+		const historial = document.querySelector(".historial");
+		console.log("Hice algo");
+		if (nombre && historial) {
+			const nombreHeight = nombre.clientHeight + nombre.offsetTop;
+			historial.style.paddingTop = nombreHeight + "px";
+		} else {
+			console.error(
+				"No se pudieron encontrar los elementos .perfil o .basico.",
+			);
+		}
+	}
+
+	// Ejecutar al cargar la página y al cambiar el tamaño de la ventana
+	window.addEventListener("load", adjustPadding2);
+	window.addEventListener("resize", adjustPadding2);
+
+	let items = document.querySelectorAll(".slider .item");
+	let next = document.getElementById("next");
+	let prev = document.getElementById("prev");
+
+	let active = 0;
+	function loadShow() {
+		console.log("El activo es: ", active);
+		let stt = 0;
+		items[active].style.transform = `none`;
+		items[active].style.zIndex = 1;
+		items[active].style.filter = "none";
+		items[active].style.opacity = 1;
+		//items[active].style.display = "block"
+		for (var i = active + 1; i < items.length; i++) {
+			stt++;
+			items[i].style.transform =
+				`translateX(${120 * stt}px) scale(${1 - 0.2 * stt}) perspective(16px) rotateY(-1deg)`;
+			items[i].style.zIndex = -stt;
+			items[i].style.filter = "blur(5px)";
+			items[i].style.opacity = stt > 2 ? 0 : 0.6;
+			//items[i].style.display = "none"
+		}
+		stt = 0;
+		for (var i = active - 1; i >= 0; i--) {
+			stt++;
+			items[i].style.transform =
+				`translateX(${-120 * stt}px) scale(${1 - 0.2 * stt}) perspective(16px) rotateY(1deg)`;
+			items[i].style.zIndex = -stt;
+			items[i].style.filter = "blur(5px)";
+			items[i].style.opacity = stt > 2 ? 0 : 0.6;
+			//items[i].style.display = "none"
+		}
+	}
+	loadShow();
+	next.onclick = function () {
+		active = active - 1 >= 0 ? active - 1 : items.length - 1;
+		loadShow();
+	};
+	prev.onclick = function () {
+		active = active + 1 < items.length ? active + 1 : 0;
+		loadShow();
+	};
+
+	const botones = document.querySelectorAll(".botones button");
+	const contenidos = document.querySelectorAll(".contenido");
+
+	contenidos[0].style.display = "block";
+	botones.forEach((button, index) => {
+		button.addEventListener("click", () => mostrarContenido(index));
+	});
+
+	function mostrarContenido(indice: number) {
+		// Remover la clase "activo" de todos los botones y ocultar todos los contenidos
+		botones.forEach((boton, i) => {
+			boton.classList.remove("activo");
+			contenidos[i].style.display = "none";
+		});
+
+		// Agregar la clase "activo" al botón clicado y mostrar el contenido correspondiente
+		botones[indice].classList.add("activo");
+		contenidos[indice].style.display = "block";
+	}
+
+
+
+
+	function adjustPadding3() {
+		const nombre = document.querySelector(".nombre");
+		const historial = document.querySelector(".botones");
+		const carusel =  document.querySelector(".carousel")
+
+		if (nombre && historial && carusel) {
+			const nombreHeight = nombre.clientHeight + nombre.offsetTop;
+			carusel.style.height = `calc(100vh - 50px - ${nombreHeight + historial.clientHeight}px)`;
+
+		} else {
+			console.error(
+				"No se pudieron encontrar los elementos .perfil o .basico.",
+			);
+		}
+	}
+
+	// Ejecutar al cargar la página y al cambiar el tamaño de la ventana
+	window.addEventListener("load", adjustPadding3);
+	window.addEventListener("resize", adjustPadding3);
+</script>
