@@ -270,7 +270,7 @@ a {
     }
   }
 
-/* Aplicar la animación al contenedor */
+
 .nombre {
     background-color: #436696;
     color: white;
@@ -278,22 +278,22 @@ a {
     position: absolute;
     top: 5%;
     padding: 50px 0;
-    animation: slideInLeft 1s ease-out; /* Añadir la animación */
+    animation: slideInLeft 1s ease-out; 
 }
 
-/* Estilos para el contenedor interior */
+
 .nombre div {
     margin-left: 30%;
 }
 
-/* Estilos para el encabezado */
+
 .nombre #encabezado {
     font-size: 5rem;
     font-weight: bolder;
     margin-bottom: 5px;
 }
 
-/* Estilos para el puesto */
+
 .nombre #puesto {
     font-size: 2rem;
 }
@@ -322,17 +322,17 @@ a {
 .perfil img {
     width: 70%;
     border-radius: 100%;
-    animation: scaleAndRotate 1.5s ease-in-out forwards; /* Aplica animación de escala y rotación */
+    animation: scaleAndRotate 1.5s ease-in-out forwards; 
 }
 
-/* Definir la animación */
+
 @keyframes scaleAndRotate {
     0% {
-        transform: scale(0.5) rotate(0deg); /* Empieza pequeño y sin rotación */
+        transform: scale(0.5) rotate(0deg); 
         opacity: 0;
     }
     100% {
-        transform: scale(1) rotate(360deg); /* Escala al tamaño normal y da una vuelta completa */
+        transform: scale(1) rotate(360deg); 
         opacity: 1;
     }
 }
@@ -358,6 +358,7 @@ a {
         opacity: 1;
     }
 }
+
 /*CSS del slider*/
 .slider {
     position: relative;
@@ -382,13 +383,13 @@ a {
     color: #fff;
     background-color: transparent;
     border: none;
-    font-size: 2rem; /* Ajuste de tamaño de fuente en rem para una mejor escala */
-    font-family: 'Arial', sans-serif; /* Cambié a una fuente más legible */
+    font-size: 2rem; 
+    font-family: 'Arial', sans-serif; 
     font-weight: bold;
-    padding: 10px 20px; /* Mejora la accesibilidad y visibilidad */
+    padding: 10px 20px; 
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Animaciones suaves para hover */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra más sutil */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
 }
 
 
@@ -398,7 +399,7 @@ a {
 
 #next:hover,
 #prev:hover {
-    transform: translateY(-2%); /* Efecto de zoom suave */
+    transform: translateY(-2%); 
 }
 .liner {
     display: flex;
@@ -445,10 +446,10 @@ a {
     border: solid 1px gray;
     margin: 3% 5% 0 5%;
     border-radius: 10px;
-    padding: 15px; /* Añade espacio interno */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
-    background-color: #f9f9f9; /* Fondo claro */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de transición */
+    padding: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .historial .about p:not(:first-child) {
@@ -486,16 +487,13 @@ a {
 
 .botones button:hover {
     background-color: #365080;
-    /* Un tono más oscuro al pasar el ratón */
+    
     transform: translateY(-2px);
-    /* Un pequeño levantamiento al pasar el ratón */
 }
 
 .botones button.activo {
     background-color: #2a3d59;
-    /* Un tono más oscuro para el botón activo */
     transform: scale(1.05);
-    /* Un ligero aumento de tamaño para destacar */
 }
 
 .contenido {
